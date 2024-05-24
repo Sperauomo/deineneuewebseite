@@ -39,6 +39,22 @@ h2 {
 }
 
 
+#profilepic {
+    border-radius: 15%;
+    margin-bottom: 25px;
+}
+
+
+/* For animation transition */
+.reveal {
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.reveal.active {
+    opacity: 1;
+}
+
 
 
 /******************WHATSAPP-BUTTON**************/
